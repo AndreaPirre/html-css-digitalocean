@@ -13,7 +13,7 @@ body {
 [class*="col-"] {
     /* debug regole */
     border: 1px solid lightgrey;
-    height: 65px;
+    /* height: 65px; */
 }
 
                                                      /* |||||BARRA FISSA||||| */
@@ -113,23 +113,26 @@ label {
         display: block;
     }
 
-
 }
 /* fine regole nav */
 
                                                 /* ||||FINE BARRA FISSA||||| */
 
 
-
-
-
-
-
-                                                    /* ||||INIZIO JUMBO||||| */
+                                                /* ||||INIZIO JUMBO||||| */
 .jumbo_sfondo {
     width: 100%;
     height: 580px;
+    padding-top: 65px;
     background-image: url("../img/jumbo.svg");
     background-size: cover;
     background-position: center;
+}
+
+.titolo_jumbo {
+    width: 570px;
+    color: #fff;
+    margin-top: 85px;
+    font-size: 30px;
+
 }
