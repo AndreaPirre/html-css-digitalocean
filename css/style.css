@@ -124,7 +124,8 @@ label {
     width: 100%;
     height: 580px;
     padding-top: 65px;
-    background-image: url("../img/jumbo.svg");
+    background-color: red;
+    background-image: url("../img/jumbo.sv");
     background-size: cover;
     background-position: center;
 }
@@ -183,6 +184,7 @@ label {
     font-size: 16px;
 }
 
+
 .form_btn {
     width: 450px;
     height: 35px;
@@ -195,17 +197,20 @@ label {
     font-weight: 600;
 }
 
+
 .google_btn {
     background-color: #fff;
     color: #8F8F8F ;
     box-shadow: 2px 2px #E1E1E1;
     line-height: 40px;
+    position: relative;
+    margin-bottom: 15px;
 }
 
 #icon_google {
     width: 20px;
-    float: left;
     margin-top: 10px;
-    position: relative;
-
+    float: left;
+    position: absolute;
+    left: 5px;
 }
