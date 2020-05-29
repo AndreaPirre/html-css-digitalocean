@@ -129,10 +129,14 @@ label {
     background-position: center;
 }
 
+/* titolo jumbo h1 */
 .titolo_jumbo {
     width: 570px;
     color: #fff;
     margin-top: 85px;
     font-size: 30px;
+}
 
+.titolo_jumbo p {
+    color: #c1c1c1;
 }
