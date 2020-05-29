@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: roboto, Arial, Helvetica, sans-serif;
 }
 
 [class*="col-"] {
@@ -139,15 +139,15 @@ label {
 
 /* titolo jumbo paragrafo */
 .titolo_jumbo_p {
-    width: 695px;
-    color: #E1E1E1;
+    width: 640px;
+    color: #fff;
     margin-top: 15px;
     font-size: 20px;
     letter-spacing: 1px;
     font-weight: bolder;
     line-height: 30px;
 }
-
+/* contenitore form */
 .box_form {
     width: 500px;
     height: 400px;
@@ -155,4 +155,18 @@ label {
     border-radius: 8px;
     margin-top: 60px;
     float: right;
+    text-align: center;
+}
+/* titolo nero box form */
+#titolo_form {
+    margin-top: 40px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    color: #394b73;
+}
+/* titolo blu form */
+#titolo_2_form {
+    color: #004aff;
+    font-weight: bolder;
+    font-size: 30px;
 }
