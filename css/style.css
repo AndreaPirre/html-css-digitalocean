@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 body {
@@ -27,17 +29,16 @@ body {
 #img_logo {
     width: 200px;
     margin-top: 15px;
+    padding-left: 15px;
 }
 
 /* regole nav */
 
 .menu_right {
     float: right;
-
 }
 
 li a {
-    text-decoration: none;
     color: #031c4e;
 }
 
@@ -45,16 +46,14 @@ a:hover{
     color: #004aff;
 }
 /* nav a sinistra */
-.allinea_left {
-    list-style-type: none;
+.menu_left li {
     float: left;
     color: #000;
     margin-right: 15px;
     line-height: 65px;
 }
 /* nav a destra */
-.allinea_right {
-    list-style-type: none;
+.menu_right li {
     float: left;
     color: #000;
     margin-left: 15px;
@@ -68,16 +67,63 @@ a:hover{
     border-radius: 5px;
     color: #004aff;
     padding: 8px;
-    margin-right: 0;
+    margin-right: 15px;
 }
 
 .btn:hover{
     background-color: #004aff;
     color: #fff;
+    transition: 0.3s;
+}
+
+/* menu hamburger */
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 65px;
+    display: none;
+    width: 26px;
+    float: right;
+    color: #004aff;
+}
+
+#toggle {
+    display: none;
+}
+
+
+@media only screen and (max-width: 992px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+
 }
 /* fine regole nav */
 
                                                 /* ||||FINE BARRA FISSA||||| */
+
+
+
+
+
+
 
                                                     /* ||||INIZIO JUMBO||||| */
 .jumbo_sfondo {
