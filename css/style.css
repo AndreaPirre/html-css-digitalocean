@@ -79,7 +79,7 @@ a:hover{
 /* menu hamburger */
 
 label {
-    margin: 0 40px 0 0;
+    margin: 0 25px 0 0;
     font-size: 26px;
     line-height: 65px;
     display: none;
@@ -122,27 +122,32 @@ label {
                                                 /* ||||INIZIO JUMBO||||| */
 .jumbo_sfondo {
     width: 100%;
-    height: 580px;
+    /* height: 580px; */
     padding-top: 65px;
+    padding-bottom: 30px;
     background-color: red;
-    background-image: url("../img/jumbo.sv");
+    background-image: url("../img/jumbo.svg");
     background-size: cover;
     background-position: center;
 }
 
 /* titolo jumbo h1 */
 .titolo_jumbo {
-    width: 570px;
+    width: 100%;
     color: #fff;
     margin-top: 85px;
     font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 /* titolo jumbo paragrafo */
 .titolo_jumbo_p {
-    width: 640px;
+    width: 100%;
     color: #fff;
     margin-top: 15px;
+    padding-right: 50px;
+    margin-left: 5px;
     font-size: 20px;
     letter-spacing: 1px;
     font-weight: bolder;
@@ -150,13 +155,16 @@ label {
 }
 /* contenitore form */
 .box_form {
-    width: 500px;
+    width:100%;
     height: 400px;
     background-color: #ffff;
     border-radius: 8px;
     margin-top: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
     float: right;
     text-align: center;
+    padding: 15px;
 }
 /* titolo nero box form */
 #titolo_form {
@@ -167,13 +175,13 @@ label {
 }
 /* titolo blu form */
 #titolo_2_form {
-    color: #004aff;
+    color: #579aff;
     font-weight: bolder;
     font-size: 30px;
 }
 /* campi email e password form */
 .campo_form {
-    width: 450px;
+    width: 100%;
     height: 40px;
     border-radius: 5px;
     border: 1px solid #EFEFEF;
@@ -186,7 +194,7 @@ label {
 
 
 .form_btn {
-    width: 450px;
+    width: 100%;
     height: 35px;
     background-color: #579aff;
     border-radius: 5px;
@@ -200,11 +208,11 @@ label {
 
 .google_btn {
     background-color: #fff;
-    color: #8F8F8F ;
+    color: #8F8F8F;
     box-shadow: 2px 2px #E1E1E1;
     line-height: 40px;
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 #icon_google {
