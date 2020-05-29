@@ -12,7 +12,7 @@ body {
 
 [class*="col-"] {
     /* debug regole */
-    border: 1px solid lightgrey;
+    /* border: 1px solid lightgrey; */
     /* height: 65px; */
 }
 
@@ -137,6 +137,22 @@ label {
     font-size: 30px;
 }
 
-.titolo_jumbo p {
-    color: #c1c1c1;
+/* titolo jumbo paragrafo */
+.titolo_jumbo_p {
+    width: 695px;
+    color: #E1E1E1;
+    margin-top: 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    line-height: 30px;
+}
+
+.box_form {
+    width: 500px;
+    height: 400px;
+    background-color: #ffff;
+    border-radius: 8px;
+    margin-top: 60px;
+    float: right;
 }
