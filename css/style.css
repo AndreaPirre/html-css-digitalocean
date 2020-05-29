@@ -170,3 +170,18 @@ label {
     font-weight: bolder;
     font-size: 30px;
 }
+
+.campo_form {
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #EFEFEF;
+    padding: 5px;
+    margin-top: 10px;
+    color: #404040;
+    font-weight: 500;
+    font-size: 16px;
+
+
+
+}
