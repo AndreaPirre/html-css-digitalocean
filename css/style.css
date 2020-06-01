@@ -167,7 +167,7 @@ label {
     padding: 15px;
 }
 /* titolo nero box form */
-#titolo_form {
+.titolo_h2 {
     margin-top: 40px;
     margin-bottom: 8px;
     font-size: 30px;
@@ -223,11 +223,15 @@ label {
     left: 5px;
 }
 
+.box_form p {
+    margin-bottom: 20px;
+}
+
                                                             /* fine HEADER */
 /* classe per sfondo grigio */
 .sfondo_grey {
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     background-color: #f3f5f9;
 }
 /* classe per primo titoletto grigio sezione img */
@@ -237,15 +241,229 @@ label {
     padding-top: 40px;
 }
 
+/* immagini singole */
 .blocco_img img {
-    height: 100px;
-    padding-right: 8px;
-
+    margin: 0 5%;
+    /* float: left; */
+    padding: 10px;
 }
 
+/* blocco che contiene le immagini */
 .blocco_img {
-    margin: 0 auto;
-    /* background-color: red; */
+    height: 90px;
+    margin:0 5%;
+    background-color:;
+    /* margin-top: 30px; */
+    padding-left: 0px;
+}
+
+/* titolo blu sotto i loghi */
+.titolo_grey2 {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titolo_grey2 a{
+    color: #579aff;
+}
+
+/* titolo h2 sezione subito dopo quella dei loghi */
+.titolo_h2_center {
+    text-align: center;
+}
+
+/* paragrafo sezione subito stto quella dei loghi */
+.p_grey {
+    color: #808ba4;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+    line-height: 30px;
+}
+/* box a sinistra  */
+.box_left {
+    margin-top: 50px;
+    height: 300px;
+    /* border: 1px solid grey; */
+}
+/* linea verticale con lista */
+.bordo_verticale {
+    width: 2px;
+    height: 250px;
+    background-color: lightgrey;
+    margin-left: 100px;
+}
+
+.lista ul  li {
+    color: #8F8F8F;
+    margin-left: 10px;
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.box_right {
+    margin-top: 60px;
+    /* height: 300px; */
+    /* border: 1px solid grey; */
+}
+
+.cella_contenuto {
+    height: 185px;
+    /* border: 1px solid grey; */
+    padding: 10px;
+}
+
+.titolo_contenuto {
+    margin-top: 15px;
+    color: #394b73;
+}
+
+.cella_contenuto_p {
+    color: #8F8F8F;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.carousel_img {
+    margin: 5% 23%;
+    background-color: red;
+    height: 400px;
+    position: relative;
+}
+
+.box_angle_left {
+    background-color: ;
+    width: 40px;
+    height:40px;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 220px;
+}
+
+.box_angle_left .fas {
+    color: #a5adbf;
+}
+
+.box_angle_right .fas {
+    color: #667594;
+}
+
+.box_angle_right {
+    background-color: ;
+    width: 40px;
+    height:40px;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 900px;
+}
+
+.p_bottom_carousel {
+    text-align: center;
+}
+
+.cella_contenuto_3 {
     margin-top: 40px;
-    padding-left: 40px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+
+.titolo_blue {
+    margin-top: 15px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.titolo_blue a {
+    color: #579aff;
+}
+
+.sfondo_gradiente {
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(5deg, #00209b, #0045c3);
+}
+
+.titolo_sezione_blu {
+    margin-top: 60px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.riga_tab {
+    border-bottom: 1px solid #fff;
+    height: 40px;
+    font-size: 15px;
+    margin: 0 5%;
+}
+
+.riga_tab_last {
+    height: 40px;
+    font-size: 15px;
+    margin: 0 5%;
+}
+
+.speed {
+    float: right;
+    color: #0091c5
+}
+
+.centratura_line {
+    line-height: 30px;
+    padding: 5px;
+    padding-bottom: 5px;
+}
+
+.codice {
+    color: #fff;
+}
+
+.city {
+    color: lightgrey;
+    font-weight: 500;
+}
+
+.sfondo_blu {
+    background-color: #0033ad;
+    height: 200px;
+    width: 100%;
+}
+
+.blu_btn {
+    width: 200px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    color:  #579aff;
+    padding: 15px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+/* #git_img {
+    margin-left: 20px;
+    height: 110px;
+} */
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+    .blocco_img img {
+        height: 70px;
+        margin-right: 0px;
+        float: left;
+        padding: 5px;
+    }
+
+
+    .blocco_img {
+        /* background-color: red; */
+        margin-top: 30px;
+        margin:0 10%;
+
+
+    }
+
 }
