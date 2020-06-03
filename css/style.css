@@ -254,7 +254,7 @@ label {
     margin:0 5%;
     background-color:;
     /* margin-top: 30px; */
-    padding-left: 0px;
+    /* padding-left: 0px; */
 }
 
 /* titolo blu sotto i loghi */
@@ -336,41 +336,24 @@ label {
 .carousel_img {
     margin: 0 auto;
     height: 300px;
-    background-color: red;
+    /* background-color:; */
     /* position: relative; */
 }
 
-
-
-
-.box_angle_left {
-
-
-    /* width: 40px;
-    height:40px;
-    position: absolute; */
-    /* margin-top: 240px;
-    margin-left: 220px; */
-
-}
-
-.box_angle_left .fas {
-    color: #a5adbf;
-}
-
-.box_angle_right .fas {
-    color: #667594;
-
-}
-
-/* .box_angle_right {
-    background-color: ;
-    width: 40px;
-    height:40px;
+.left_cursore {
+    color:#a5adbf;
     position: absolute;
-    margin-top: 240px;
-    margin-left: 900px;
-} */
+    margin-left: -30px;
+    margin-top: 130px;
+}
+
+.right_cursore {
+    color:#667594;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 130px;
+}
+
 
 .text_corousel {
     padding-top: 10px;
@@ -550,5 +533,31 @@ label {
 
 
     }
+
+}
+
+@media all and (max-width: 768px){
+
+    .carousel_img {
+        margin: 0 auto;
+        height: 200px;
+        /* background-color:; */
+        /* position: relative; */
+    }
+
+    .left_cursore {
+        color:#a5adbf;
+        position: absolute;
+        margin-left: -30px;
+        margin-top: 75px;
+    }
+
+    .right_cursore {
+        color:#667594;
+        position: absolute;
+        margin-left: 5px;
+        margin-top: 75px;
+    }
+
 
 }
