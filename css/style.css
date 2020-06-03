@@ -281,6 +281,7 @@ label {
     font-weight: 600;
     padding-top: 10px;
     line-height: 30px;
+    margin: 5% 5%;
 }
 /* box a sinistra  */
 .box_left {
@@ -293,12 +294,13 @@ label {
     width: 2px;
     height: 250px;
     background-color: lightgrey;
-    margin-left: 100px;
+    margin-left: 15px;
 }
+
 
 .lista ul  li {
     color: #8F8F8F;
-    margin-left: 10px;
+    margin-left:10px;
     line-height: 50px;
     font-weight: 500;
     font-size: 18px;
@@ -312,7 +314,6 @@ label {
 
 .cella_contenuto {
     height: 185px;
-    /* border: 1px solid grey; */
     padding: 10px;
 }
 
@@ -324,23 +325,33 @@ label {
 .cella_contenuto_p {
     color: #8F8F8F;
     margin-top: 10px;
-    font-weight: 500;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+.centratura {
+    text-align: center;
 }
 
 .carousel_img {
-    margin: 5% 23%;
+    margin: 0 auto;
+    height: 300px;
     background-color: red;
-    height: 400px;
-    position: relative;
+    /* position: relative; */
 }
 
+
+
+
 .box_angle_left {
-    background-color: ;
-    width: 40px;
+
+
+    /* width: 40px;
     height:40px;
-    position: absolute;
-    margin-top: 240px;
-    margin-left: 220px;
+    position: absolute; */
+    /* margin-top: 240px;
+    margin-left: 220px; */
+
 }
 
 .box_angle_left .fas {
@@ -349,20 +360,44 @@ label {
 
 .box_angle_right .fas {
     color: #667594;
+
 }
 
-.box_angle_right {
+/* .box_angle_right {
     background-color: ;
     width: 40px;
     height:40px;
     position: absolute;
     margin-top: 240px;
     margin-left: 900px;
+} */
+
+.text_corousel {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: #394b73;;
 }
 
-.p_bottom_carousel {
-    text-align: center;
+.dot {
+  height: 15px;
+  width: 15px;
+  border: 2px solid #579aff;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
 }
+
+.dot_box {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.dot_pieno{
+    background-color: #579aff;
+}
+
 
 .cella_contenuto_3 {
     margin-top: 40px;
@@ -382,7 +417,7 @@ label {
 
 .sfondo_gradiente {
     width: 100%;
-    height: 400px;
+    /* height: 400px; */
     background-image: linear-gradient(5deg, #00209b, #0045c3);
 }
 
@@ -428,8 +463,14 @@ label {
 
 .sfondo_blu {
     background-color: #0033ad;
-    height: 200px;
+    /* height: 200px; */
     width: 100%;
+}
+
+.box_bottone {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
 }
 
 .blu_btn {
@@ -443,6 +484,50 @@ label {
     margin-top: 50px;
     font-weight: 600;
 }
+
+.sfondo_footer {
+    /* height: 600px; */
+    width: 100%;
+    background-color: #031c4e;
+}
+
+.lista_footer {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #c1c1c1;
+    font-weight: 400;
+    padding-left: 10px
+}
+
+.credit {
+    margin-top: 60px;
+    color: lightgrey;
+    padding-left: 10px
+
+}
+
+#ny {
+    color: #808080;
+    opacity: 50%;
+}
+
+.credit .fab {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    opacity: 35%;
+    color: #808080;
+
+
+}
+
+.lista_footer::first-line {
+    font-weight: 600;
+    color: #fff;
+}
+
+
 
 /* #git_img {
     margin-left: 20px;
